@@ -58,5 +58,6 @@ runGame puzzle = forever $ do
 startGame :: IO ()
 startGame = do
     hSetBuffering stdout NoBuffering
+    putStrLn "Getting the random word..."
     word <- getRandomWord
     runGame (freshPuzzle (fmap toLower word))

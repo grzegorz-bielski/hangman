@@ -1,10 +1,4 @@
-A
-aa
-aa
-aal
-aalii
-aam
-Aani
-aardvark
-aardwolf
-Aaron
+some
+word
+another
+typography

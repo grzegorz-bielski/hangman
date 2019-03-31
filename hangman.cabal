@@ -23,7 +23,8 @@ library
                       , Hangman.Words
   build-depends:       base >= 4.7 && < 5
                       , random
-                      , split              
+                      , split
+                      , scalpel           
 
 executable hangman
   hs-source-dirs:      src
@@ -34,5 +35,6 @@ executable hangman
                       , Hangman.Words
   build-depends:       base >= 4.7 && < 5
                       , random
-                      , split                
+                      , split
+                      , scalpel              
 
