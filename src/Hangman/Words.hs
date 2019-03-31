@@ -3,8 +3,6 @@
 module Hangman.Words (getRandomWord) where
 
 import System.Random (randomRIO)
-
-import Control.Monad.IO.Class (MonadIO)
 import qualified Text.HTML.Scalpel as S
 
 

@@ -52,7 +52,7 @@ runGame puzzle = forever $ do
     guess <- getLine
     case guess of
         [c] -> handleGuess puzzle c >>= runGame
-        _ -> putStrLn "You may only guess a sinle character"
+        _ -> putStrLn "You may only guess a single character!"
 
 
 startGame :: IO ()
